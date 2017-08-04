@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!--<include layout="@layout/layout_add_semester_fragment_toolbar"-->
+        <!--android:id="@+id/include6" />-->
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/courseNameInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semester Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/semesterNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionDone"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/lmao"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="13dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:hint="GPA"-->
+        <!--android:layout_below="@+id/courseNameInputLayout">-->
+
+        <!--<android.support.design.widget.TextInputEditText-->
+            <!--android:id="@+id/aye"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:singleLine="true" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/addSemesterButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignRight="@+id/courseNameInputLayout"-->
+        <!--android:layout_alignEnd="@+id/courseNameInputLayout"-->
+        <!--android:layout_below="@+id/courseNameInputLayout"-->
+        <!--android:text="Add Semester" />-->
+
+
+</RelativeLayout>

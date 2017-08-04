@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_semester"
+        android:orderInCategory="100"
+        android:title="ADD SEMESTER"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="200"
+        android:title="SAVE"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_add_course"
+        android:orderInCategory="300"
+        android:title="ADD COURSE"
+        app:showAsAction="ifRoom"
+        android:visible="false" />
+</menu>

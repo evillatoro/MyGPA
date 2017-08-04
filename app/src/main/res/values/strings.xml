@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyGPA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cool">cool</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name ="empty_semester"> TAP \"ADD SEMESTER\"</string>
+    <string name ="empty_course"> TAP \"ADD COURSE\"</string>
+    <string name="number_of_decimals">number of decimals</string>
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-4851595901170430/9287281369</string>
+</resources>
